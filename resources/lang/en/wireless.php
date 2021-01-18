@@ -122,5 +122,14 @@ return [
         'long' => 'Cross Polar Interference',
         'unit' => 'dB',
     ],
-
+    'cellband' => [
+        'short' => 'Cellband',
+        'long' => 'Cellular band',
+        'unit' => '',
+    ],
+    'cellid' => [
+        'short' => 'CellId',
+        'long' => 'Cell Id',
+        'unit' => '',
+    ],
 ];

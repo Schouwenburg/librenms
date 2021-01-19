@@ -54,9 +54,6 @@ trait CiscoCellular
                 'ios',
                 $index,
                 'RSSI: ' . $this->profileApn($index),
-                $index,
-                'RSSI: ' . $this->profileApn($index),
-                //'RSSI: ' . str_replace('1.', '', $index),
                 $entry['c3gCurrentGsmRssi.1']
             );
         }
@@ -109,8 +106,6 @@ trait CiscoCellular
                 $this->getDeviceId(),
                 '.1.3.6.1.4.1.9.9.817.1.1.1.1.1.2.' . $index,
                 'ios',
-                $index,
-                'RSRQ: ' . $this->profileApn($index),
                 $index,
                 'RSRQ: ' . $this->profileApn($index),
                 $entry['cwceLteCurrRsrq.1'],

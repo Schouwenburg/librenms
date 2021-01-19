@@ -1,7 +1,5 @@
 <?php
 
-$scale_min = '0';
-
 $class = 'cellid';
 $unit = '';
 $unit_long = 'CellId';
